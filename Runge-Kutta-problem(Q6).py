@@ -1,3 +1,15 @@
+# A tank initially contains 100 liters of pure water. Brine containing 2 g/L of salt
+# flows into the tank at a rate of 5 L/min, and the mixture flows out at the same rate.
+# If y(t) is the amount of salt (in grams) in the tank at time t minutes, then
+
+# dy
+# dt = 10 −
+# y
+# 20
+# .
+
+# Using the Runge–Kutta second-order method with step size h = 5, estimate the
+# amount of salt in the tank after 15 minutes, given y(0) = 0.
 def solve_rk2_mixing_problem():
     
     # --- Define the differential equation ---
@@ -45,4 +57,5 @@ def solve_rk2_mixing_problem():
 
 # Run the solver
 if __name__ == "__main__":
+
     solve_rk2_mixing_problem()
