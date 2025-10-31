@@ -1,3 +1,11 @@
+# The temperature T of a cooling object satisfies Newton’s Law of Cooling:
+
+# dT
+# dt = −k(T − 25),
+
+# where k = 0.07 per minute and 25◦C is the ambient temperature. If T(0) = 85◦C, use
+# Euler’s Method with step size h = 5 minutes to estimate the temperature after.
+
 def solve_newtons_cooling():
 
     # --- Parameters ---
@@ -48,4 +56,5 @@ def solve_newtons_cooling():
 
 # Run the solver
 if __name__ == "__main__":
+
     solve_newtons_cooling()
