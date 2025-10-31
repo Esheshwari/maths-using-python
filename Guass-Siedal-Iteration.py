@@ -1,3 +1,14 @@
+# Solve the following system using the Gauss–Seidel method up to Four decimal
+# places:
+
+# 4x − y + z = 7,
+# −x + 5y + 2z = −8,
+# 2x + y + 6z = 6.
+
+# Take initial guesses x
+
+# (0) = 0, y(0) = 0, z(0) = 0.
+
 def solve_gauss_seidel():
 
     # Initial guess (k=0)
@@ -64,4 +75,5 @@ def solve_gauss_seidel():
 
 # Run the solver
 if __name__ == "__main__":
+
     solve_gauss_seidel()
