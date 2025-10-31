@@ -1,3 +1,14 @@
+# Solve the following system of linear equations using the Gauss–Jacobi iterative
+# method up to Four decimal places:
+
+# 8x − 2y + z = 20,
+# x + 7y − 3z = −10,
+# 2x + y + 9z = 30.
+
+# Use the initial guess x
+
+# (0) = 0, y(0) = 0, z(0) = 0.
+
 def solve_gauss_jacobi():
     
     # Initial guess (k=0)
@@ -66,4 +77,5 @@ def solve_gauss_jacobi():
 
 # Run the solver
 if __name__ == "__main__":
+
     solve_gauss_jacobi()
