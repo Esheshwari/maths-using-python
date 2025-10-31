@@ -1,3 +1,8 @@
+# Using Runge–Kutta second-order method, Solve
+
+# dy
+# dx = cos(x + y),
+# given y(0) = 0. Compute y(0.3) by considering h = 0.1.
 def my_cos(x):
     # Pre-calculate powers and factorials
     x2 = x * x
@@ -50,4 +55,5 @@ def solve_rk2_no_lib():
 
 # Run the solver
 if __name__ == "__main__":
+
     solve_rk2_no_lib()
