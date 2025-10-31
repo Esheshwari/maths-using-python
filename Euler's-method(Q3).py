@@ -1,3 +1,9 @@
+# Using Euler’s Method with step size h = 0.1, estimate y(0.3) for
+
+# dy
+# dx = e
+# x − ln(1 + y),
+# given y(0) = 0. Compute y(0.1), y(0.2), and y(0.3).
 def my_exp(x):
     # Factorials
     fact2 = 2 * 1
@@ -73,4 +79,5 @@ def solve_euler_no_lib():
 
 # Run the solver
 if __name__ == "__main__":
+
     solve_euler_no_lib()
